@@ -13,10 +13,9 @@
         </form>
     </div>
     <div>List Messages</div>
-    <form method="post" action="filter">
-        <input type="text" name="filter">
+    <form method="get" action="/main">
+        <input type="text" name="filter" value="${filter}">
         <button type="submit">Search</button>
-        <input type="hidden" name="_csrf" value="${_csrf.token}"/>
     </form>
     <#list messages as message>
         <div>
