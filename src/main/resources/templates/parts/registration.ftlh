@@ -11,6 +11,12 @@
             <div class="col-sm-5 mb-3">
                 <input type="password" name="password" class="form-control" placeholder="Enter password..."/>
             </div>
+            <div class="mb-3">
+                <label class="form-label"> Email</label>
+                <div class="col-sm-5">
+                    <input type="email" name="email" class="form-control" placeholder="Enter email..."/>
+                </div>
+            </div>
             <input type="hidden" name="_csrf" value="${_csrf.token}" />
             <button type="submit" class="btn btn-primary">Sign Up</button>
         </div>

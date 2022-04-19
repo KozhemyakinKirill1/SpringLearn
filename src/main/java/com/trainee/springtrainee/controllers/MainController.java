@@ -1,7 +1,7 @@
 package com.trainee.springtrainee.controllers;
 
-import com.trainee.springtrainee.domain.Message;
 import com.trainee.springtrainee.domain.User;
+import com.trainee.springtrainee.domain.Message;
 import com.trainee.springtrainee.repos.MessageRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
